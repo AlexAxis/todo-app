@@ -9,6 +9,7 @@ module.exports = {
     },
     devServer: {
         port: 9992,
+        disableHostCheck: true,
         contentBase: './public',
     },
     resolve: {
